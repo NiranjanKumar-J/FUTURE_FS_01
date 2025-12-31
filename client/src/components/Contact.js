@@ -18,7 +18,7 @@ const Contact = () => {
 
     try {
       // --- CHANGE IS HERE (Updated to Render Link) ---
-      const response = await fetch('https://future-fs-01-3b7t.onrender.com/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
