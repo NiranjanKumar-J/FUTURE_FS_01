@@ -62,7 +62,7 @@ module.exports = async (req, res) => {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'krpradeepakr6@gmail.com', // Un friend email or un email
+      to: 'jniranjankumar371@gmail.com', // Un friend email or un email
       subject: `New Portfolio Message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
